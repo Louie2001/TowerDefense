@@ -25,9 +25,24 @@ public class Gegner {
     /**
      * Gibt die Farbe des Objekts an.
      */
-    private int Farbe;
+    private String Farbe;
     /**
      * Gibt an wie oft das Objkekt getroffen werden darf bevor es zerstört wird.
      */
     private int HP;
+    /**
+     * Gibt an wie viele Punkte man bekommt wenn das OBjekt zerstört wird.
+     */   
+    private int PunkteBelohnung;
+    
+    public Gegner(int X,int Y,int geschwindigkeit,String Farbe,int HP){
+        this.X = X;
+        this.Y = Y;
+        this.geschwindigkeit = geschwindigkeit;
+        this.Farbe = Farbe;
+        this.HP = HP;
+    }
+    
+    
+    
 }

@@ -29,16 +29,11 @@ public class Spiel {
     /**
      * Alle Tower im Spiel.
      */
-    public static List<Tower> AlleTower = new LinkedList<Tower>();
-    
-    
-    
+    public static List<Tower> AlleTower = new LinkedList<Tower>(); 
     public Spiel(){
-       
-        
-        
-        
-        
+        Welle = 0;
+        beendet = false;
+                   
     }
     
     

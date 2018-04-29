@@ -1,14 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package me.louie.towerdefense.model;
 
-/**
- *
- * @author walle
- */
 public class Spieler {
-    
+
+    /**
+     * Punkte-Anzahl
+     */
+    public static int Punkte;
+
+    public Spieler() {
+        Punkte = 0;
+    }
+
 }
